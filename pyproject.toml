@@ -1,0 +1,26 @@
+[project]
+name = "embedding_torchgeo"
+requires-python = "==3.10.0"
+version = "0.1.0"
+
+authors = [
+    { name = "Beatriz Peres" },
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+    "ipykernel",
+    "rasterio",
+    "torchgeo",
+    "scikit-learn",
+    "h5py",
+    # "cropharvest",
+    # "shapely==1.8.5",
+    "seaborn",
+]
+
+[project.urls]
+Source = "https://github.com/beatrizbsperes/embeddings_in_TorchGeo"
