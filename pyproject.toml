@@ -17,6 +17,9 @@ dependencies = [
     "torchgeo",
     "scikit-learn",
     "h5py",
+    # "cropharvest",
+    # "shapely==1.8.5",
+    "seaborn",
 ]
 
 [project.urls]
